@@ -12,7 +12,7 @@ const Navbar = () => {
           alt="logo"
           className="object-contain w-[200px] h-[132px]"
         />
-        <CgMenuRight size={32} className="cursor-pointer"/>
+        <CgMenuRight size={32} className="cursor-pointer text-blue"/>
       </div>
     </nav>
   );

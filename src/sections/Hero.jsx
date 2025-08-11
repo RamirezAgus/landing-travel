@@ -1,4 +1,5 @@
 import cover from '@assets/cover3.jpg';
+import { slideIn, staggerContainer, textVariant } from '@/utils/motion';
 
 const Hero = () => {
   return (
