@@ -25,3 +25,24 @@ export const exploreTravels = [
         title: 'America',
     },
 ]
+
+export const exploreModalities = [
+    {
+        id: 'modality-1',
+        imgUrl: '/src/assets/modimg/beach.webp',
+        title: 'Grupos',
+        description: 'Viajes en grupo con todo incluido.'   
+    },
+    {
+        id: 'modality-2',
+        imgUrl: '/src/assets/modimg/newyork.webp',
+        title: 'Eventos',
+        description: 'Participa en eventos emocionantes y actividades grupales.'
+    },
+    {
+        id: 'modality-3',
+        imgUrl: '/src/assets/modimg/palm.webp',
+        title: 'Circuitos',
+        description: 'Explora circuitos culturales y turísticos.'
+    },
+]

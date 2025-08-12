@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "@/utils/motion";
 
-const TravelCards = ({ id, imgUrl, title, index, active, handleClick }) => {
+const ModalitieCard = ({ id, imgUrl, title, index, active, handleClick, description }) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
@@ -12,7 +12,7 @@ const TravelCards = ({ id, imgUrl, title, index, active, handleClick }) => {
     >
       <img
         src={imgUrl}
-        alt="travel-1"
+        alt="modality-1"
         className="absolute w-full h-full object-cover rounded-[24px]"
       />
       {active !== id ? (
@@ -22,7 +22,7 @@ const TravelCards = ({ id, imgUrl, title, index, active, handleClick }) => {
       ) : (
         <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
           <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
-            Ver más
+            {description}
           </p>
           <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
             {title}
@@ -33,4 +33,4 @@ const TravelCards = ({ id, imgUrl, title, index, active, handleClick }) => {
   );
 };
 
-export default TravelCards;
+export default ModalitieCard;

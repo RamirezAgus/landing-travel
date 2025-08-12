@@ -3,6 +3,7 @@ import Hero from '@sections/Hero'
 import About from '@sections/About'
 import Travels from '@sections/Travels'
 import Footer from '@components/Footer'
+import Modalities from '@sections/Modilities'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <About/>
       <Travels/>
+      <Modalities/>
       <Footer/>
     </div>
   )

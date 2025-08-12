@@ -20,10 +20,10 @@ const Travel = () => {
         <div className="text-center">
           <TypingText title="| Destinos" className="text-center" />
         </div>
-        <div className="mt-2 text-center">
+        <div className="my-2 text-center">
           <TitleText title={<>Viajá como quieras</>} />
         </div>
-        <div className="flex flex-col min-h-[70vh] gap-5">
+        <div className="flex flex-col min-h-[100vh] gap-5 py-4">
           {exploreTravels.map((travel, index) => (
             <TravelCards
               key={travel.id}
