@@ -12,7 +12,7 @@ const Hero = () => {
         viewport={{ once: false, amount: 0.25 }}
         className="mx-auto flex flex-col 2xl:max-w-[1280px] w-full"
       >
-        <div className="flex justify-center items-baseline flex-row relative z-10 pr-28">
+        <div className="flex justify-center items-baseline flex-row relative z-10">
           <motion.h1
             variants={textVariant(0.25)}
             className="text-orange font-bold lg:text-[55px] md:text-[35px] sm:text-[25px] text-[20px] lg:leading-[158px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase"
