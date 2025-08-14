@@ -111,3 +111,21 @@ export const explorePacks = [
         - DESDE 1699 USD POR PERSONA`
     }
 ]
+
+export const exploreInsights = [
+    {
+        imgUrl: '/src/assets/insightimg/insight-1.webp',
+        title: 'Financiación flexible',
+        description: 'Disfrutá de la posibilidad de pagar tus vacaciones en cómodas cuotas, para que viajar sea más accesible que nunca.',
+    },
+    {
+        imgUrl: '/src/assets/insightimg/insight-2.webp',
+        title: 'Precios transparentes',
+        description: 'Lo que ves es lo que pagás. Sin cargos ocultos ni sorpresas de último momento, para que planees tu viaje con total confianza',
+    },
+    {
+        imgUrl: '/src/assets/insightimg/insight-3.webp',
+        title: 'Hecho por viajeros para viajeros',
+        description: 'Somos un equipo de gente joven y viajera que sabe lo que buscás: buenos precios, experiencias geniales y cero complicaciones.',
+    },
+]

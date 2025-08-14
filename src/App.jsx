@@ -5,6 +5,7 @@ import Travels from '@sections/Travels'
 import Footer from '@components/Footer'
 import Modalities from '@sections/Modilities'
 import Packs from '@sections/Packs'
+import Insights from '@sections/Insights'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Travels/>
       <Modalities/>
       <Packs/>
+      <Insights/>
       <Footer/>
     </div>
   )

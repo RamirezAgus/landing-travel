@@ -5,7 +5,7 @@ const ModalitieCard = ({ id, imgUrl, title, index, handleClick, description }) =
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="relative flex-1 min-w-[250px] sm:min-w-[300px] max-w-[400px] h-[700px] cursor-pointer"
+      className="relative flex-1 min-w-[250px] sm:min-w-[300px] max-w-[400px] h-[550px] cursor-pointer"
       onClick={() => handleClick(id)}
     >
       <img
