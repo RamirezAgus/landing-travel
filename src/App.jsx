@@ -12,11 +12,11 @@ const App = () => {
     <div className="font-montserrat overflow-hidden">
       <Navbar />
       <Hero />
-      <About/>
-      <Travels/>
-      <Modalities/>
-      <Packs/>
-      <Insights/>
+      <div id='about'><About/></div>
+      <div id='travels'><Travels/></div>
+      <div id='modalities'><Modalities/></div>
+      <div id='packs'><Packs/></div>
+      <div id='insights'><Insights/></div>
       <Footer/>
     </div>
   )
