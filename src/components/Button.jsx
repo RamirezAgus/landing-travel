@@ -9,7 +9,7 @@ const Button = ({ label, onClick, targetId }) => {
   return (
     <button
       onClick={handleClick}
-      className="hover:text-blue-500 transition font-medium"
+      className="hover:text-blue-400 text-blue md:text-[14px] text-[12px] transition font-medium"
     >
       {label}
     </button>

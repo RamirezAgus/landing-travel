@@ -9,7 +9,7 @@ import Insights from '@sections/Insights'
 
 const App = () => {
   return (
-    <div className="font-montserrat overflow-hidden">
+    <div className="font-montserrat overflow-hidden pt-[120px]">
       <Navbar />
       <Hero />
       <div id='about'><About/></div>

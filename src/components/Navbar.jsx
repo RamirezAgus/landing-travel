@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logo from "@assets/logo.webp";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { navVariants } from "@utils/motion";
 import { CgMenuRight } from "react-icons/cg";
 import Button from "./Button";
@@ -13,64 +13,86 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      className="relative sm:px-16 px-4 flex justify-center bg-white shadow-md py-4"
+      className="py-4 sm:px-16 px-4 flex flex-col fixed top-0 left-0 w-full justify-center bg-white/70 backdrop-blur-md bg-white z-50"
     >
-      <div className="absolute w-[50%] inset-0" />
-      <div className="flex items-center w-full 2xl:max-w-[1280px] relative">
-        <div className="md:hidden absolute left-0">
-          <CgMenuRight
-            size={32}
-            className="cursor-pointer text-blue"
-            onClick={() => setIsOpen(!isOpen)}
-          />
-        </div>
-        <div className="flex justify-center flex-1">
-          <img
-            src={logo}
-            alt="logo"
-            className="object-contain w-[150px] h-[100px]"
-          />
-        </div>
+      <div className="flex md:flex-col justify-between items-center w-full 2xl:max-w-[1280px] mx-auto">
+        <div className="w-8 md:hidden" />
+        <img
+          src={logo}
+          alt="logo"
+          className="object-contain md:w-[150px] w-[120px] md:h-[100px] h-[80px]"
+        />
 
-        <div className="hidden md:flex gap-6 absolute right-0">
-          <Button label="About" targetId="about" />
-          <Button label="Travels" targetId="travels" />
-          <Button label="Modalities" targetId="modalities" />
-          <Button label="Packs" targetId="packs" />
-          <Button label="Insights" targetId="insights" />
-        </div>
-      </div>
-      {isOpen && (
-        <div className="absolute top-full right-4 mt-2 bg-white shadow-lg rounded-lg p-4 flex flex-col gap-3 md:hidden">
+        <div className="hidden md:flex md:gap-6">
           <Button
-            label="About"
+            label="Nosotros"
             targetId="about"
-            onClick={() => setIsOpen(false)}
           />
           <Button
-            label="Travels"
+            label="Destinos"
             targetId="travels"
-            onClick={() => setIsOpen(false)}
           />
           <Button
-            label="Modalities"
+            label="Modalidades"
             targetId="modalities"
-            onClick={() => setIsOpen(false)}
           />
           <Button
-            label="Packs"
+            label="Paquetes"
             targetId="packs"
-            onClick={() => setIsOpen(false)}
           />
           <Button
             label="Insights"
             targetId="insights"
-            onClick={() => setIsOpen(false)}
           />
         </div>
-      )}
+
+        <CgMenuRight
+          size={32}
+          className="cursor-pointer text-blue md:hidden"
+          onClick={() => setIsOpen(!isOpen)}
+        />
+      </div>
+
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            className="flex justify-center items-center gap-4 mt-4 md:hidden"
+          >
+            <Button
+              label="Nosotros"
+              targetId="about"
+              onClick={() => setIsOpen(false)}
+            />
+            <Button
+              label="Destinos"
+              targetId="travels"
+              onClick={() => setIsOpen(false)}
+            />
+            <Button
+              label="Modalidades"
+              targetId="modalities"
+              onClick={() => setIsOpen(false)}
+            />
+            <Button
+              label="Paquetes"
+              targetId="packs"
+              onClick={() => setIsOpen(false)}
+            />
+            <Button
+              label="Insights"
+              targetId="insights"
+              onClick={() => setIsOpen(false)}
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.nav>
   );
 };
 
 export default Navbar;
+
+
