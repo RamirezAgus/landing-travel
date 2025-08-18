@@ -4,9 +4,10 @@ import { TypingText, TitleText } from "@/components/CustomTexts";
 import { staggerContainer} from "@/utils/motion";
 import { exploreTravels } from "@/constants";
 import TravelCards from "@/components/TravelCards";
+import Modal from "@/components/Modal";
 
 const Travel = () => {
-  const [active, setActive] = useState("travel-1");
+  const [active, setActive] = useState(null);
 
   return (
     <section className="sm:p-16 xs:p-8 px-6 py-12" id="travel">
@@ -29,12 +30,17 @@ const Travel = () => {
               key={travel.id}
               {...travel}
               index={index}
-              active={active}
+              active={active?.id}
               handleClick={setActive}
             />
           ))}
         </div>
       </motion.div>
+      <Modal
+        isOpen={!!active}
+        onClose={() => setActive(null)}
+        packages={active?.packages || []}
+      />
     </section>
   );
 };

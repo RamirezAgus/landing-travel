@@ -1,4 +1,4 @@
-import { TypingText, TypingText2 } from "@/components/CustomTexts";
+import { TitleText, TypingText, TypingText2 } from "@/components/CustomTexts";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "@/utils/motion";
 import { RxArrowDown } from "react-icons/rx";
@@ -14,10 +14,13 @@ const About = () => {
         viewport={{ once: false, amount: 0.25 }}
       >
         <TypingText title="|Acerca de Paraiso Travel" />
+        <div className="my-2 text-center">
+          <TitleText title={<>Nosotros</>} />
+        </div>
         <motion.p
           variants={fadeIn("up", "tween", 0.2, 1)}
-          className="mt-[8px] font-normal sm:text-[32px]
-                text-[20px] text-center text-blue"
+          className="mt-[8px] font-normal sm:text-[26px]
+                text-[18px] text-center text-blue"
         >
           En <span className="font-extrabold">Paraíso</span> somos tres amigos
           que decidimos convertir nuestra pasión por los viajes en una agencia
@@ -35,8 +38,9 @@ const About = () => {
         </motion.p>
         <TypingText2 title="...hecho por viajeros para viajeros" />
         <motion.div
-        variants={fadeIn('up', 'tween', 0.3, 1)} 
-        className="flex justify-center my-10">
+          variants={fadeIn("up", "tween", 0.3, 1)}
+          className="flex justify-center my-10"
+        >
           <RxArrowDown className="text-blue" size={35} />
         </motion.div>
       </motion.div>

@@ -1,10 +1,56 @@
-import { desc, img, title } from "framer-motion/client"
-
 export const exploreTravels = [
     {
         id: 'travel-1',
         imgUrl: '/src/assets/europa1.webp',
         title: 'Europa',
+        packages: [
+            {
+                title: "Paquete 1",
+                subtitle: "Europa Mediterranea Clasica",
+                imgUrl: "/src/assets/travelsimg/mediterranea/mediterranea.webp",
+                description: `INCLUYE :
+                -AÉREO IDA Y VUELTA  CON EQUIPAJE 
+                -HOTELERIA 4 Y 5 *
+                -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
+                -CONSULTAR POR ACTIVIDADES Y EXCURSIONES.
+                ITINERARIO 15 NOCHES 
+                VISITANDO : MADRID , BARCELONA , PARIS , ROMA.
+                PRECIOS VARIABLES SEGÚN FECHA Y DISPONIBILIDAD. 
+                ¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!`
+            },
+            {
+                title: "Paquete 2",
+                subtitle: "Esencias Britanicas e Irlandesas",
+                imgUrl: "/src/assets/travelsimg/reinounido/reinounido.webp",
+                description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
+                -HOTELERIA 4 Y 5 *
+                -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
+                -CONSULTAR POR ACTIVIDADES Y EXCURSIONES.
+                ITINERARIO DE 15 NOCHES
+                VISITANDO : LONDRES , LIVERPOOL , EDIMBURGO , GLASGOW , DUBLIN , MOHER
+                - 1 NOCHE EN ACANTILADOS DE MOHER , IRLANDA
+                PRECIOS VARIABLES SEGÚN FECHA Y DISPONIBILIDAD.
+                ¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!`
+            },
+            {
+                title: "Paquete 3",
+                subtitle: "Europa del Este",
+                imgUrl: "/src/assets/travelsimg/europaeste/europaeste.webp",
+                description: `INCLUYE:
+                -AÉREO IDA Y VUELTA  CON EQUIPAJE 
+                -HOTELERIA 4 Y 5 *
+                -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
+                -CONSULTAR POR ACTIVIDADES Y EXCURSIONES. ITINERARIO , 15 NOCHES 
+                VISITANDO:
+                -BERLÍN
+                -PRAGA
+                -VIENA
+                -BRATISLAVA
+                -BUDAPEST
+                PRECIOS VARIABLES SEGÚN FECHA Y DISPONIBILIDAD.
+                ¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!`
+            }
+        ]
     },
     {
         id: 'travel-2',
