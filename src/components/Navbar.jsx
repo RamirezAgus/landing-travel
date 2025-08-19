@@ -20,7 +20,8 @@ const Navbar = () => {
         <img
           src={logo}
           alt="logo"
-          className="object-contain md:w-[150px] w-[120px] md:h-[100px] h-[80px]"
+          className="object-contain md:w-[150px] w-[120px] md:h-[100px] h-[80px] cursor-pointer"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         />
 
         <div className="hidden md:flex md:gap-6">
