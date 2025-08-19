@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { staggerContainer } from "@/utils/motion";
-import { exploreModalities } from "@/constants";
+import { exploreModalities } from "@/constants/extras";
 import { TypingText, TitleText } from "@/components/CustomTexts";
 import ModalitieCard from "@/components/ModalitieCards";
 

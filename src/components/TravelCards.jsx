@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "@/utils/motion";
+import WhatsAppButton from "./WhatsappButton";
 
 const TravelCards = ({ id, imgUrl, title, subtitle, packages, index, active, handleClick }) => {
   return (
@@ -27,6 +28,9 @@ const TravelCards = ({ id, imgUrl, title, subtitle, packages, index, active, han
           <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
             {title}
           </h2>
+          <div className="mt-4">
+            <WhatsAppButton packageTitle={title} />
+          </div>
         </div>
       )}
     </motion.div>

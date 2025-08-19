@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { staggerContainer } from "@/utils/motion";
 import { TypingText, TitleText } from "@/components/CustomTexts";
-import { exploreInsights } from "@/constants";
+import { exploreInsights } from "@/constants/extras";
 import InsightCards from "@/components/InsightCards";
 
 const Insights = () => {

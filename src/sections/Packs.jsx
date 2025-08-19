@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { staggerContainer } from "@/utils/motion";
 import { TypingText, TitleText } from "@/components/CustomTexts";
 import PackCards from "@/components/PackCards";
-import { explorePacks } from "@/constants";
+import { explorePacks } from "@/constants/extras";
 
 const Packs = () => {
   const [active, setActive] = useState("modality-1");

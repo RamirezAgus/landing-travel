@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { IoMdClose } from "react-icons/io";
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
+import WhatsAppButton from "./WhatsappButton";
 
 const Modal = ({ isOpen, onClose, packages }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -78,6 +79,9 @@ const Modal = ({ isOpen, onClose, packages }) => {
                       <p key={idx}>{line}</p>
                     )
                   )}
+              </div>
+              <div className="flex justify-center mt-4">
+                <WhatsAppButton packageTitle={packages[currentIndex].title}/>
               </div>
             </div>
           </motion.div>
