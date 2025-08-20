@@ -1,9 +1,9 @@
 import { FaWhatsapp } from 'react-icons/fa';
 import { WHATSAPP_NUMBER } from '@/constants/config';
 
-const WhatsAppButton = ({ packageTitle }) => {
-
-    const message = `¡Hola! Estoy interesado en el paquete: ${packageTitle}. ¿Podrías darme más información?`;
+const WhatsAppButton = ({ packageTitle, packageSubtitle }) => {
+    // CONSTANTE PARA MODIFICAR EL MENSAJE DE WHATSAPP
+    const message = `¡Hola! Estoy interesado en el siguiente paquete: ${packageTitle} de ${packageSubtitle}. ¿Podrías darme más información?`;
 
     return (
         <a

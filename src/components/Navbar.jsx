@@ -13,7 +13,7 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      className="py-4 sm:px-16 px-4 flex flex-col fixed top-0 left-0 w-full justify-center bg-white/70 backdrop-blur-md bg-white z-50"
+      className="py-4 sm:px-16 px-4 flex flex-col fixed top-0 left-0 w-full justify-center bg-white/70 backdrop-blur-md z-50"
     >
       <div className="flex md:flex-col justify-between items-center w-full 2xl:max-w-[1280px] mx-auto">
         <div className="w-8 md:hidden" />

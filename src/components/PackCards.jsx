@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "@/utils/motion";
-import { useState } from "react";
+
 
 const PackCards = ({
   id,
@@ -11,15 +11,19 @@ const PackCards = ({
   handleClick,
   description,
 }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  
 
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      initial={{ scale: 1 }}
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 1.05 }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
       className="relative flex-1 min-w-[200px] sm:min-w-[250px] max-w-[300px] h-[480px] cursor-pointer"
       onClick={() => {
         handleClick(id);
-        setIsOpen(!isOpen);
+        
       }}
     >
       <img
@@ -28,9 +32,7 @@ const PackCards = ({
         className="absolute w-full h-full object-cover rounded-[24px]"
       />
       <motion.div
-        initial={{ opacity: 0 }}
         whileHover={{ opacity: 1 }}
-        animate={{ opacity: isOpen ? 1 : 0 }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
         className="absolute bottom-0 p-4 flex justify-start w-full h-full flex-col bg-[rgba(0,0,0,0.5)] rounded-[24px]"
       >
