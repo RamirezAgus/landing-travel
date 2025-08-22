@@ -67,7 +67,7 @@ const Modal = ({ isOpen, onClose, packages }) => {
                   {packages[currentIndex].subtitle}
                 </h3>
               )}
-              <div className="mt-3 text-gray-600 space-y-2 text-[13px] leading-none">
+              <div className="mt-3 text-gray-600 space-y-2 text-[13px] md:leading-[8px] leading-[1.3]">
                 {packages[currentIndex].description
                   .split("\n")
                   .map((line, idx) =>
