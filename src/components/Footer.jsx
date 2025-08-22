@@ -5,6 +5,7 @@ import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
+import { LiaGlobeSolid } from "react-icons/lia";
 
 const Footer = () => {
   return (
@@ -24,7 +25,7 @@ const Footer = () => {
         >
           <h4
             className="font-bold md:text-[64px]
-        text-[44px] text-blue"
+        text-[30px] text-blue"
           >
             Elegí tu próximo destino
           </h4>

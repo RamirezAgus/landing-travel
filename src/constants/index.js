@@ -4,6 +4,104 @@
 export const exploreTravels = [
     {
         id: 'travel-1',
+        imgUrl: '/src/assets/caribe1.webp',
+        title: 'Caribe',
+        packages: [
+            {
+                title: "Paquete 1",
+                subtitle: "Bayahibe",
+                imgUrl: "/src/assets/travelsimg/bayahibe/bayahibe.webp",
+                description: `INCLUYE:
+                -VUELO IDA Y VUELTA CON CUPO CONFIRMADO DE ARAJET
+                -HOTEL 5 * ALL INCLUSIVE
+                -TODOS LOS TRASLADOS
+                ITINERARIO , 7 NOCHES
+                CONOCE EL PARAÍSO EN SU MÁXIMO ESPLENDOR Y DISFRUTA DE UN HERMOSO HOTEL 5***** ALL INCLUSIVE
+                1599 USD POR PERSONA
+                `
+            },
+            {
+                title: "Paquete 2",
+                subtitle: "Cancun",
+                imgUrl: "/src/assets/travelsimg/cancun/cancun.webp",
+                description: `INCLUYE:
+                -VUELOS IDA Y VUELTA 
+                -HOTEL 5 * ALL INCLUSIVE
+                -TODOS LOS TRASLADOS
+                ITINERARIO :8 NOCHES,  9 DÍAS
+                CONOCE LAS HERMOSAS PLAYAS DE CANCÚN , 
+                Y DISFRUTA DE UN ALOJAMIENTO 5 
+                ***** ALL INCLUSIVE.
+                1799 USD POR PERSONA`
+            },
+            {
+                title: "Paquete 3",
+                subtitle: "Aruba",
+                imgUrl: "/src/assets/travelsimg/aruba/aruba.webp",
+                description: `INCLUYE:
+                -AÉREO IDA Y VUELTA  CON EQUIPAJE 
+                -HOTELERIA ALL INCLUSIVE
+                -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
+                -CONSULTAR POR ACTIVIDADES Y EXCURSIONES.
+                ITINERARIO:  7 NOCHES , 8 DÍAS 
+                VISITA LAS MEJORES PLAYAS DE ARUBA EN UN PAQUETE TODO RESUELTO.
+                DESDE 2699 USD POR PERSONA`
+            }
+        ]
+    },
+    {
+        id: 'travel-2',
+        imgUrl: '/src/assets/brasil1.webp',
+        title: 'Brasil',
+        packages: [
+            {
+                title: "Paquete 1",
+                subtitle: "Rio de Janeiro",
+                imgUrl: "/src/assets/travelsimg/rio/rio.webp",
+                description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
+                -HOTELERIA
+                -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
+                ITINERARIO 7 NOCHES , 8 DIAS 
+                DISFRUTA DE LAS HERMOSAS PLAYAS DE RIO DE JANEIRO.
+                DESDE 699 USD POR PERSONA`
+            },
+            {
+                title: "Paquete 2",
+                subtitle: "Buzios",
+                imgUrl: "/src/assets/travelsimg/buzios/buzios.webp",
+                description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
+                -HOTELERIA
+                -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
+                ITINERARIO 7 NOCHES , 8 DIAS 
+                CONOCE LAS HERMOSAS PLAYAS DE RIO DE JANEIRO Y BUZIOS.
+                DESDE 749 USD POR PERSONA`
+            },
+            {
+                title: "Paquete 3",
+                subtitle: "Fortaleza",
+                imgUrl: "/src/assets/travelsimg/fortaleza/fortaleza.webp",
+                description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
+                -HOTELERIA 4 *
+                -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
+                ITINERARIO 7 NOCHES  , 8 DIAS 
+                DISFRUTA DE LAS RELAJANTES PLAYAS DE FORTALEZA
+                DESDE 829 USD POR PERSONA`
+            },
+            {
+                title: "Paquete 4",
+                subtitle: "Florianopolis",
+                imgUrl: "/src/assets/travelsimg/florianopolis/florianopolis.webp",
+                description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
+                -HOTELERIA
+                -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
+                ITINERARIO 7 NOCHES 8 DIAS .
+                AVENTURATE EN ESTE INCREIBLE DESTINO Y DISFRUTA DE SUS PLAYAS.
+                DESDE 499 USD POR PERSONA`
+            }
+        ]
+    },
+    {
+        id: 'travel-3',
         imgUrl: '/src/assets/europa1.webp',
         title: 'Europa',
         packages: [
@@ -55,55 +153,9 @@ export const exploreTravels = [
             }
         ]
     },
+    
     {
-        id: 'travel-2',
-        imgUrl: '/src/assets/caribe1.webp',
-        title: 'Caribe',
-        packages: [
-            {
-                title: "Paquete 1",
-                subtitle: "Bayahibe",
-                imgUrl: "/src/assets/travelsimg/bayahibe/bayahibe.webp",
-                description: `INCLUYE:
-                -VUELO IDA Y VUELTA CON CUPO CONFIRMADO DE ARAJET
-                -HOTEL 5 * ALL INCLUSIVE
-                -TODOS LOS TRASLADOS
-                ITINERARIO , 7 NOCHES
-                CONOCE EL PARAÍSO EN SU MÁXIMO ESPLENDOR Y DISFRUTA DE UN HERMOSO HOTEL 5***** ALL INCLUSIVE
-                1599 USD POR PERSONA
-                `
-            },
-            {
-                title: "Paquete 2",
-                subtitle: "Cancun",
-                imgUrl: "/src/assets/travelsimg/cancun/cancun.webp",
-                description: `INCLUYE:
-                -VUELOS IDA Y VUELTA 
-                -HOTEL 5 * ALL INCLUSIVE
-                -TODOS LOS TRASLADOS
-                ITINERARIO :8 NOCHES,  9 DÍAS
-                CONOCE LAS HERMOSAS PLAYAS DE CANCÚN , 
-                Y DISFRUTA DE UN ALOJAMIENTO 5 
-                ***** ALL INCLUSIVE.
-                1799 USD POR PERSONA`
-            },
-            {
-                title: "Paquete 3",
-                subtitle: "Aruba",
-                imgUrl: "/src/assets/travelsimg/aruba/aruba.webp",
-                description: `INCLUYE:
-                -AÉREO IDA Y VUELTA  CON EQUIPAJE 
-                -HOTELERIA ALL INCLUSIVE
-                -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
-                -CONSULTAR POR ACTIVIDADES Y EXCURSIONES.
-                ITINERARIO:  7 NOCHES , 8 DÍAS 
-                VISITA LAS MEJORES PLAYAS DE ARUBA EN UN PAQUETE TODO RESUELTO.
-                DESDE 2699 USD POR PERSONA`
-            }
-        ]
-    },
-    {
-        id: 'travel-3',
+        id: 'travel-4',
         imgUrl: '/src/assets/exoticos1.webp',
         title: 'Exoticos',
         packages: [
@@ -146,57 +198,7 @@ export const exploreTravels = [
             }
         ]
     },
-    {
-        id: 'travel-4',
-        imgUrl: '/src/assets/brasil1.webp',
-        title: 'Brasil',
-        packages: [
-            {
-                title: "Paquete 1",
-                subtitle: "Rio de Janeiro",
-                imgUrl: "/src/assets/travelsimg/rio/rio.webp",
-                description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
-                -HOTELERIA
-                -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
-                ITINERARIO 7 NOCHES , 8 DIAS 
-                DISFRUTA DE LAS HERMOSAS PLAYAS DE RIO DE JANEIRO.
-                DESDE 699 USD POR PERSONA`
-            },
-            {
-                title: "Paquete 2",
-                subtitle: "Buzios",
-                imgUrl: "/src/assets/travelsimg/buzios/buzios.webp",
-                description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
-                -HOTELERIA
-                -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
-                ITINERARIO 7 NOCHES , 8 DIAS 
-                CONOCE LAS HERMOSAS PLAYAS DE RIO DE JANEIRO Y BUZIOS.
-                DESDE 749 USD POR PERSONA`
-            },
-            {
-                title: "Paquete 3",
-                subtitle: "Fortaleza",
-                imgUrl: "/src/assets/travelsimg/fortaleza/fortaleza.webp",
-                description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
-                -HOTELERIA 4 *
-                -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
-                ITINERARIO 7 NOCHES  , 8 DIAS 
-                DISFRUTA DE LAS RELAJANTES PLAYAS DE FORTALEZA
-                DESDE 829 USD POR PERSONA`
-            },
-            {
-                title: "Paquete 4",
-                subtitle: "Florianopolis",
-                imgUrl: "/src/assets/travelsimg/florianopolis/florianopolis.webp",
-                description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
-                -HOTELERIA
-                -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
-                ITINERARIO 7 NOCHES 8 DIAS .
-                AVENTURATE EN ESTE INCREIBLE DESTINO Y DISFRUTA DE SUS PLAYAS.
-                DESDE 499 USD POR PERSONA`
-            }
-        ]
-    },
+    
     {
         id: 'travel-5',
         imgUrl: '/src/assets/america1.webp',
