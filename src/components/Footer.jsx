@@ -5,8 +5,6 @@ import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
-import { LiaGlobeSolid } from "react-icons/lia";
-
 const Footer = () => {
   return (
     <motion.footer
