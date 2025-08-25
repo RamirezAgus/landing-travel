@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { footerVariants } from "@/utils/motion";
-import logo from "@assets/logo.webp";
+import logo from "/logo.webp";
 import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";

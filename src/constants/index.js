@@ -4,13 +4,13 @@
 export const exploreTravels = [
     {
         id: 'travel-1',
-        imgUrl: '/src/assets/caribe1.webp',
+        imgUrl: '/caribe1.webp',
         title: 'Caribe',
         packages: [
             {
                 title: "Paquete 1",
                 subtitle: "Bayahibe",
-                imgUrl: "/src/assets/travelsimg/bayahibe/bayahibe.webp",
+                imgUrl: "/travelsimg/bayahibe/bayahibe.webp",
                 description: `INCLUYE:
                 -VUELO IDA Y VUELTA CON CUPO CONFIRMADO DE ARAJET
                 -HOTEL 5 * ALL INCLUSIVE
@@ -23,7 +23,7 @@ export const exploreTravels = [
             {
                 title: "Paquete 2",
                 subtitle: "Cancun",
-                imgUrl: "/src/assets/travelsimg/cancun/cancun.webp",
+                imgUrl: "/travelsimg/cancun/cancun.webp",
                 description: `INCLUYE:
                 -VUELOS IDA Y VUELTA 
                 -HOTEL 5 * ALL INCLUSIVE
@@ -37,7 +37,7 @@ export const exploreTravels = [
             {
                 title: "Paquete 3",
                 subtitle: "Aruba",
-                imgUrl: "/src/assets/travelsimg/aruba/aruba.webp",
+                imgUrl: "/travelsimg/aruba/aruba.webp",
                 description: `INCLUYE:
                 -AÉREO IDA Y VUELTA  CON EQUIPAJE 
                 -HOTELERIA ALL INCLUSIVE
@@ -51,13 +51,13 @@ export const exploreTravels = [
     },
     {
         id: 'travel-2',
-        imgUrl: '/src/assets/brasil1.webp',
+        imgUrl: '/Brasil1.webp',
         title: 'Brasil',
         packages: [
             {
                 title: "Paquete 1",
                 subtitle: "Rio de Janeiro",
-                imgUrl: "/src/assets/travelsimg/rio/rio.webp",
+                imgUrl: "/travelsimg/rio/rio.webp",
                 description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
                 -HOTELERIA
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
@@ -68,7 +68,7 @@ export const exploreTravels = [
             {
                 title: "Paquete 2",
                 subtitle: "Buzios",
-                imgUrl: "/src/assets/travelsimg/buzios/buzios.webp",
+                imgUrl: "/travelsimg/buzios/buzios.webp",
                 description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
                 -HOTELERIA
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
@@ -79,7 +79,7 @@ export const exploreTravels = [
             {
                 title: "Paquete 3",
                 subtitle: "Fortaleza",
-                imgUrl: "/src/assets/travelsimg/fortaleza/fortaleza.webp",
+                imgUrl: "/travelsimg/fortaleza/fortaleza.webp",
                 description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
                 -HOTELERIA 4 *
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
@@ -90,7 +90,7 @@ export const exploreTravels = [
             {
                 title: "Paquete 4",
                 subtitle: "Florianopolis",
-                imgUrl: "/src/assets/travelsimg/florianopolis/florianopolis.webp",
+                imgUrl: "/travelsimg/florianopolis/florianopolis.webp",
                 description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
                 -HOTELERIA
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
@@ -102,13 +102,13 @@ export const exploreTravels = [
     },
     {
         id: 'travel-3',
-        imgUrl: '/src/assets/europa1.webp',
+        imgUrl: '/europa1.webp',
         title: 'Europa',
         packages: [
             {
                 title: "Paquete 1",
                 subtitle: "Europa Mediterranea Clasica",
-                imgUrl: "/src/assets/travelsimg/mediterranea/mediterranea.webp",
+                imgUrl: "/travelsimg/mediterranea/mediterranea.webp",
                 description: `INCLUYE :
                 -AÉREO IDA Y VUELTA  CON EQUIPAJE 
                 -HOTELERIA 4 Y 5 *
@@ -122,7 +122,7 @@ export const exploreTravels = [
             {
                 title: "Paquete 2",
                 subtitle: "Esencias Britanicas e Irlandesas",
-                imgUrl: "/src/assets/travelsimg/reinounido/reinounido.webp",
+                imgUrl: "/travelsimg/reinounido/reinounido.webp",
                 description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
                 -HOTELERIA 4 Y 5 *
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
@@ -136,7 +136,7 @@ export const exploreTravels = [
             {
                 title: "Paquete 3",
                 subtitle: "Europa del Este",
-                imgUrl: "/src/assets/travelsimg/europaeste/europaeste.webp",
+                imgUrl: "/travelsimg/europaeste/europaeste.webp",
                 description: `INCLUYE:
                 -AÉREO IDA Y VUELTA  CON EQUIPAJE 
                 -HOTELERIA 4 Y 5 *
@@ -156,13 +156,13 @@ export const exploreTravels = [
     
     {
         id: 'travel-4',
-        imgUrl: '/src/assets/exoticos1.webp',
+        imgUrl: '/exoticos1.webp',
         title: 'Exoticos',
         packages: [
             {
                 title: "Paquete 1",
                 subtitle: "Emiratos Arabes Unidos",
-                imgUrl: "/src/assets/travelsimg/emiratos/emiratos.webp",
+                imgUrl: "/travelsimg/emiratos/emiratos.webp",
                 description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
                 -HOTELERIA
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
@@ -175,7 +175,7 @@ export const exploreTravels = [
             {
                 title: "Paquete 2",
                 subtitle: "Sudeste Asiatico",
-                imgUrl: "/src/assets/travelsimg/sudeste/sudeste.webp",
+                imgUrl: "/travelsimg/sudeste/sudeste.webp",
                 description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
                 -HOTELERIA
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
@@ -188,7 +188,7 @@ export const exploreTravels = [
             {
                 title: "Paquete 3",
                 subtitle: "Turquia",
-                imgUrl: "/src/assets/travelsimg/turquia/turquia.webp",
+                imgUrl: "/travelsimg/turquia/turquia.webp",
                 description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
                 -HOTELERIA
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
@@ -201,13 +201,13 @@ export const exploreTravels = [
     
     {
         id: 'travel-5',
-        imgUrl: '/src/assets/america1.webp',
+        imgUrl: '/America1.webp',
         title: 'America',
         packages: [
             {
                 title: "Paquete 1",
                 subtitle: "Peru - Lima - Machu-Pichu",
-                imgUrl: "/src/assets/travelsimg/peru/peru.webp",
+                imgUrl: "/travelsimg/peru/peru.webp",
                 description: `SALIDAS DESDE OCTUBRE. 
                 INCLUYE :
                 -AÉREO IDA Y VUELTA  CON EQUIPAJE 
@@ -222,7 +222,7 @@ export const exploreTravels = [
             {
                 title: "Paquete 2",
                 subtitle: "Colombia - Cartagena - San Andres",
-                imgUrl: "/src/assets/travelsimg/colombia/colombia.webp",
+                imgUrl: "/travelsimg/colombia/colombia.webp",
                 description: `SALIDAS DESDE OCTUBRE. 
                 INCLUYE :
                 -AÉREO IDA Y VUELTA  CON EQUIPAJE 
@@ -237,7 +237,7 @@ export const exploreTravels = [
             {
                 title: "Paquete 3",
                 subtitle: "Maiami - Orlando",
-                imgUrl: "/src/assets/travelsimg/miami/miami.webp",
+                imgUrl: "/travelsimg/miami/miami.webp",
                 description: `INCLUYE :
                 -AÉREO IDA Y VUELTA  CON EQUIPAJE 
                 -HOTELERIA 4*

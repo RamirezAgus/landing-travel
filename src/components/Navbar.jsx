@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "@assets/logo.webp";
+import logo from "/logo.webp";
 import { AnimatePresence, motion } from "framer-motion";
 import { navVariants } from "@utils/motion";
 import { CgMenuRight } from "react-icons/cg";

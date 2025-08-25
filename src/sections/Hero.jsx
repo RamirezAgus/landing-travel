@@ -1,4 +1,4 @@
-import cover from "@assets/cover3.jpg";
+import cover from "/cover3.jpg";
 import { motion } from "framer-motion";
 import { slideIn, staggerContainer, textVariant } from "@/utils/motion";
 
@@ -33,7 +33,7 @@ const Hero = () => {
           <img
             src={cover}
             alt="Cover"
-            className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+            className="w-full h-[500px] object-cover rounded-tl-[140px] z-10 relative"
           />
         </motion.div>
       </motion.div>

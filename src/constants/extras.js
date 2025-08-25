@@ -4,25 +4,25 @@
 export const exploreModalities = [
     {
         id: 'modality-1',
-        imgUrl: '/src/assets/modimg/grupos.webp',
+        imgUrl: '/modimg/grupos.webp',
         title: 'Grupos',
         description: 'Nuestras salidas en grupo son la oportunidad perfecta para divertirte , crear nuevas amistades y compartir experiencias únicas. Descubrí destinos increíbles mientras conectas con gente nueva y disfrutas de la mejor compañía.'   
     },
     {
         id: 'modality-2',
-        imgUrl: '/src/assets/modimg/Eventos.webp',
+        imgUrl: '/modimg/Eventos.webp',
         title: 'Eventos',
         description: 'Viví la emoción de los mejores eventos con nuestros viajes especiales. Compartí tu pasión , conoce gente nueva y llévate recuerdos únicos.'
     },
     {
         id: 'modality-3',
-        imgUrl: '/src/assets/modimg/Atumedida.webp',
+        imgUrl: '/modimg/Atumedida.webp',
         title: 'A tu medida',
         description: 'Con nuestros viajes a tu medida , cada detalle se ajusta a tus preferencias , para que vivas una experiencia única y totalmente personalizada.'
     },
     {
         id: 'modality-4',
-        imgUrl: '/src/assets/modimg/Allinclusive.webp',
+        imgUrl: '/modimg/Allinclusive.webp',
         title: 'All inclusive',
         description: 'Con nuestros viajes all inclusive , cada detalle está pensado para tu comodidad. Desde el primer momento hasta el final del viaje, está todo cubierto. Alojamiento de lujo , gastronomía de primer nivel y actividades para todos los gustos. Viví una experiencia sin preocupaciones y dedicate solo a disfrutar.'
     }
@@ -31,7 +31,7 @@ export const exploreModalities = [
 export const explorePacks = [
     {
         id: 'pack-1',
-        imgUrl: '/src/assets/packimg/puntacana.webp',
+        imgUrl: '/packimg/puntacana.webp',
         title: 'Paquete 1',
         subtitle: 'BAYAHIBE 30/NOV CUPO CONFIRMADO',
         description: `INCLUYE:
@@ -46,7 +46,7 @@ export const explorePacks = [
     },
     {
         id: 'pack-2',
-        imgUrl: '/src/assets/packimg/cancun.webp',
+        imgUrl: '/packimg/cancun.webp',
         title: 'Paquete 2',
         subtitle: 'CANCUN',
         description: `- VUELOS IDA Y VUELTA
@@ -61,7 +61,7 @@ export const explorePacks = [
     },
     {
         id: 'pack-3',
-        imgUrl: '/src/assets/packimg/riodejaneiro.webp',
+        imgUrl: '/packimg/riodejaneiro.webp',
         title: 'Paquete 3',
         subtitle: 'RIO DE JANEIRO',
         description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
@@ -71,7 +71,7 @@ export const explorePacks = [
     },
     {
         id: 'pack-4',
-        imgUrl: '/src/assets/packimg/cartagena.webp',
+        imgUrl: '/packimg/cartagena.webp',
         title: 'Paquete 4',
         subtitle: 'COLOMBIA CARTAGENA - SAN ANDRES',
         description: `INCLUYE: 
@@ -87,17 +87,17 @@ export const explorePacks = [
 
 export const exploreInsights = [
     {
-        imgUrl: '/src/assets/insightimg/insight-1.webp',
+        imgUrl: '/insightimg/insight-1.webp',
         title: 'Financiación flexible',
         description: 'Disfrutá de la posibilidad de pagar tus vacaciones en cómodas cuotas, para que viajar sea más accesible que nunca.',
     },
     {
-        imgUrl: '/src/assets/insightimg/insight-2.webp',
+        imgUrl: '/insightimg/insight-2.webp',
         title: 'Precios transparentes',
         description: 'Lo que ves es lo que pagás. Sin cargos ocultos ni sorpresas de último momento, para que planees tu viaje con total confianza',
     },
     {
-        imgUrl: '/src/assets/insightimg/insight-3.webp',
+        imgUrl: '/insightimg/insight-3.webp',
         title: 'Hecho por viajeros para viajeros',
         description: 'Somos un equipo de gente joven y viajera que sabe lo que buscás: buenos precios, experiencias geniales y cero complicaciones.',
     },
