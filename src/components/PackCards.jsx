@@ -10,6 +10,7 @@ const PackCards = ({
   index,
   handleClick,
   description,
+  price
 }) => {
   
 
@@ -44,6 +45,9 @@ const PackCards = ({
         </p>
         <p className="font-normal text-[12px] leading-snug text-white whitespace-pre-line ">
           {description}
+        </p>
+        <p className="font-bold text-white">
+          {price}
         </p>
       </motion.div>
     </motion.div>

@@ -16,9 +16,8 @@ export const exploreTravels = [
                 -HOTEL 5 * ALL INCLUSIVE
                 -TODOS LOS TRASLADOS
                 ITINERARIO , 7 NOCHES
-                CONOCE EL PARAÍSO EN SU MÁXIMO ESPLENDOR Y DISFRUTA DE UN HERMOSO HOTEL 5***** ALL INCLUSIVE
-                1599 USD POR PERSONA
-                `
+                CONOCE EL PARAÍSO EN SU MÁXIMO ESPLENDOR Y DISFRUTA DE UN HERMOSO HOTEL 5***** ALL INCLUSIVE`,
+                price: "1599 USD POR PERSONA"
             },
             {
                 title: "Paquete 2",
@@ -31,8 +30,8 @@ export const exploreTravels = [
                 ITINERARIO :8 NOCHES,  9 DÍAS
                 CONOCE LAS HERMOSAS PLAYAS DE CANCÚN , 
                 Y DISFRUTA DE UN ALOJAMIENTO 5 
-                ***** ALL INCLUSIVE.
-                1799 USD POR PERSONA`
+                ***** ALL INCLUSIVE.`,
+                price: "1799 USD POR PERSONA"
             },
             {
                 title: "Paquete 3",
@@ -44,8 +43,8 @@ export const exploreTravels = [
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
                 -CONSULTAR POR ACTIVIDADES Y EXCURSIONES.
                 ITINERARIO:  7 NOCHES , 8 DÍAS 
-                VISITA LAS MEJORES PLAYAS DE ARUBA EN UN PAQUETE TODO RESUELTO.
-                DESDE 2699 USD POR PERSONA`
+                VISITA LAS MEJORES PLAYAS DE ARUBA EN UN PAQUETE TODO RESUELTO.`,
+                price: "DESDE 2699 USD POR PERSONA"
             }
         ]
     },
@@ -62,8 +61,8 @@ export const exploreTravels = [
                 -HOTELERIA
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
                 ITINERARIO 7 NOCHES , 8 DIAS 
-                DISFRUTA DE LAS HERMOSAS PLAYAS DE RIO DE JANEIRO.
-                DESDE 699 USD POR PERSONA`
+                DISFRUTA DE LAS HERMOSAS PLAYAS DE RIO DE JANEIRO.`,
+                price: "DESDE 699 USD POR PERSONA"
             },
             {
                 title: "Paquete 2",
@@ -73,8 +72,8 @@ export const exploreTravels = [
                 -HOTELERIA
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
                 ITINERARIO 7 NOCHES , 8 DIAS 
-                CONOCE LAS HERMOSAS PLAYAS DE RIO DE JANEIRO Y BUZIOS.
-                DESDE 749 USD POR PERSONA`
+                CONOCE LAS HERMOSAS PLAYAS DE RIO DE JANEIRO Y BUZIOS.`,
+                price: "DESDE 749 USD POR PERSONA"
             },
             {
                 title: "Paquete 3",
@@ -84,8 +83,8 @@ export const exploreTravels = [
                 -HOTELERIA 4 *
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
                 ITINERARIO 7 NOCHES  , 8 DIAS 
-                DISFRUTA DE LAS RELAJANTES PLAYAS DE FORTALEZA
-                DESDE 829 USD POR PERSONA`
+                DISFRUTA DE LAS RELAJANTES PLAYAS DE FORTALEZA`,
+                price: "DESDE 829 USD POR PERSONA"
             },
             {
                 title: "Paquete 4",
@@ -95,8 +94,8 @@ export const exploreTravels = [
                 -HOTELERIA
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
                 ITINERARIO 7 NOCHES 8 DIAS .
-                AVENTURATE EN ESTE INCREIBLE DESTINO Y DISFRUTA DE SUS PLAYAS.
-                DESDE 499 USD POR PERSONA`
+                AVENTURATE EN ESTE INCREIBLE DESTINO Y DISFRUTA DE SUS PLAYAS.`,
+                price: "DESDE 499 USD POR PERSONA"
             }
         ]
     },
@@ -116,8 +115,8 @@ export const exploreTravels = [
                 -CONSULTAR POR ACTIVIDADES Y EXCURSIONES.
                 ITINERARIO 15 NOCHES 
                 VISITANDO : MADRID , BARCELONA , PARIS , ROMA.
-                PRECIOS VARIABLES SEGÚN FECHA Y DISPONIBILIDAD. 
-                ¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!`
+                PRECIOS VARIABLES SEGÚN FECHA Y DISPONIBILIDAD.`,
+                price: "¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!"
             },
             {
                 title: "Paquete 2",
@@ -130,8 +129,8 @@ export const exploreTravels = [
                 ITINERARIO DE 15 NOCHES
                 VISITANDO : LONDRES , LIVERPOOL , EDIMBURGO , GLASGOW , DUBLIN , MOHER
                 - 1 NOCHE EN ACANTILADOS DE MOHER , IRLANDA
-                PRECIOS VARIABLES SEGÚN FECHA Y DISPONIBILIDAD.
-                ¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!`
+                PRECIOS VARIABLES SEGÚN FECHA Y DISPONIBILIDAD.`,
+                price: "¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!"
             },
             {
                 title: "Paquete 3",
@@ -148,8 +147,8 @@ export const exploreTravels = [
                 -VIENA
                 -BRATISLAVA
                 -BUDAPEST
-                PRECIOS VARIABLES SEGÚN FECHA Y DISPONIBILIDAD.
-                ¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!`
+                PRECIOS VARIABLES SEGÚN FECHA Y DISPONIBILIDAD.`,
+                price: "¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!"
             }
         ]
     },
@@ -157,7 +156,7 @@ export const exploreTravels = [
     {
         id: 'travel-4',
         imgUrl: '/exoticos1.webp',
-        title: 'Exoticos',
+        title: 'Exóticos',
         packages: [
             {
                 title: "Paquete 1",
@@ -169,8 +168,8 @@ export const exploreTravels = [
                 - ACTIVIDADES Y EXCURSIONES.
                 ITINERARIO , 6 NOCHES 
                 VISITANDO: DUBAI , ABU DHABI , DOHA.
-                PRECIOS VARIABLES SEGÚN FECHA Y DISPONIBILIDAD. 
-                ¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!`
+                PRECIOS VARIABLES SEGÚN FECHA Y DISPONIBILIDAD.`,
+                price: "¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!"
             },
             {
                 title: "Paquete 2",
@@ -182,8 +181,8 @@ export const exploreTravels = [
                 - ACTIVIDADES Y EXCURSIONES
                 ITINERARIO 12 NOCHES 13 DIAS
                 VISITANDO : KUALA LUMPUR , MALACCA , SINGAPUR , BANGKOK , PHUKET.
-                PRECIOS VARIABLES SEGÚN FECHA Y DISPONIBILIDAD.
-                ¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!`
+                PRECIOS VARIABLES SEGÚN FECHA Y DISPONIBILIDAD.`,
+                price: "¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!"
             },
             {
                 title: "Paquete 3",
@@ -194,7 +193,8 @@ export const exploreTravels = [
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
                 - ACTIVIDADES Y EXCURSIONES
                 ITINERARIO 12 NOCHES 13 DÍAS
-                VISITANDO : ESTAMBUL , CAPADOCIA , PAMUKKALE , KUSADASI , DUBAI.`
+                VISITANDO : ESTAMBUL , CAPADOCIA , PAMUKKALE , KUSADASI , DUBAI.`,
+                price: "¡CONSULTANOS PARA OBTENER LA MEJOR TARIFA PERSONALIZADA!"
             }
         ]
     },
@@ -202,7 +202,7 @@ export const exploreTravels = [
     {
         id: 'travel-5',
         imgUrl: '/America1.webp',
-        title: 'America',
+        title: 'América',
         packages: [
             {
                 title: "Paquete 1",
@@ -215,9 +215,8 @@ export const exploreTravels = [
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
                 ITINERARIO 12 NOCHES
                 VISITANDO : LIMA- CUZCO - MARAS - MORAY -CHINCHERO 
-                - OLLANTAYTAMBO - VALLE SAGRADO - MACHU PICHU - AGUAS CALIENTES
-
-                DESDE 1499 USD POR PERSONA`
+                - OLLANTAYTAMBO - VALLE SAGRADO - MACHU PICHU - AGUAS CALIENTES`,
+                price: "DESDE 1499 USD POR PERSONA"
             },
             {
                 title: "Paquete 2",
@@ -230,9 +229,8 @@ export const exploreTravels = [
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
                 ITINERARIO : 7 NOCHES , 8 DÍAS 
                 DIA 1 - 4 : CARTAGENA DE INDIAS.
-                DIA 4 A 8 : SAN ANDRES.
-
-                DESDE 1699 USD POR PERSONA`
+                DIA 4 A 8 : SAN ANDRES.`,
+                price: "DESDE 1699 USD POR PERSONA"
             },
             {
                 title: "Paquete 3",
@@ -244,8 +242,8 @@ export const exploreTravels = [
                 -TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
                 ITINERARIO : 7 NOCHES , 8 DÍAS
                 DIA 1-4 : MIAMI BEACH 
-                DIA 4- 8 : ORLANDO 
-                DESDE 1899 USD POR PERSONA`
+                DIA 4- 8 : ORLANDO`,
+                price: "DESDE 1899 USD POR PERSONA"
             }
         ]
     },

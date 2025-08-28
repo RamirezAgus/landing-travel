@@ -26,10 +26,6 @@ const Navbar = () => {
 
         <div className="hidden md:flex md:gap-6">
           <Button
-            label="Nosotros"
-            targetId="about"
-          />
-          <Button
             label="Destinos"
             targetId="travels"
           />
@@ -44,6 +40,10 @@ const Navbar = () => {
           <Button
             label="Insights"
             targetId="insights"
+          />
+          <Button
+            label="Nosotros"
+            targetId="about"
           />
         </div>
 
@@ -61,12 +61,7 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             className="flex justify-center items-center gap-4 mt-4 md:hidden"
-          >
-            <Button
-              label="Nosotros"
-              targetId="about"
-              onClick={() => setIsOpen(false)}
-            />
+          >  
             <Button
               label="Destinos"
               targetId="travels"
@@ -85,6 +80,11 @@ const Navbar = () => {
             <Button
               label="Insights"
               targetId="insights"
+              onClick={() => setIsOpen(false)}
+            />
+            <Button
+              label="Nosotros"
+              targetId="about"
               onClick={() => setIsOpen(false)}
             />
           </motion.div>

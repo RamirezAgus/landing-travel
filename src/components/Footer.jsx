@@ -1,17 +1,16 @@
 import { motion } from "framer-motion";
 import { footerVariants } from "@/utils/motion";
 import logo from "/logo.webp";
-import { FaTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
-import { FaFacebook } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <motion.footer
       variants={footerVariants}
       initial="hidden"
       whileInView="show"
-      className="sm:p-16 xs:p-8 px-6 py-12 py-8 relative"
+      className="sm:p-16 xs:p-8 px-6 py-8 relative"
     >
       <div
         className="2xl:max-w-[1280px] w-full mx-auto flex
@@ -36,11 +35,15 @@ const Footer = () => {
           <p className="font-normal text-[14px] text-orange">
             Copyright © 202X - 202X ParaisoTravel. All rights reserved.
           </p>
-          <div className="flex gap-4">
-            <FaTwitter size={24} className="text-blue" />
-            <FaLinkedin size={24} className="text-blue" />
-            <AiFillInstagram size={24} className="text-blue" />
-            <FaFacebook size={24} className="text-blue" />
+          <div className="flex gap-4 items-center">
+            <a
+              href="https://www.instagram.com/paraisotravel.arg/?utm_source=ig_web_button_share_sheet"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillInstagram size={28} className="text-blue cursor-pointer" />
+            </a>
+            <FaTiktok size={24} className="text-blue cursor-pointer" />
           </div>
         </div>
       </div>

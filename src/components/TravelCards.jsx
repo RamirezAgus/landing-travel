@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "@/utils/motion";
-import WhatsAppButton from "./WhatsappButton";
+import WhatsAppButton from "./WhatsAppButton";
 
 const TravelCards = ({ id, imgUrl, title, subtitle, packages, index, active, handleClick }) => {
   return (

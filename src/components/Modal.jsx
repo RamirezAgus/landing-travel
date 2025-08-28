@@ -67,7 +67,7 @@ const Modal = ({ isOpen, onClose, packages }) => {
                   {packages[currentIndex].subtitle}
                 </h3>
               )}
-              <div className="mt-3 text-gray-600 space-y-2 text-[13px] md:leading-[8px] leading-[1.3]">
+              <div className="mt-3 text-gray-600 space-y-2 text-[13px] md:leading-[14px] leading-[1.3]">
                 {packages[currentIndex].description
                   .split("\n")
                   .map((line, idx) =>
@@ -80,6 +80,11 @@ const Modal = ({ isOpen, onClose, packages }) => {
                     )
                   )}
               </div>
+              {packages[currentIndex].price && (
+                <p className="mt-4 font-semibold">
+                  {packages[currentIndex].price}
+                </p>
+              )}
               <div className="flex justify-center mt-4">
                 <WhatsAppButton packageSubtitle={packages[currentIndex].subtitle} packageTitle={packages[currentIndex].title}/>
               </div>

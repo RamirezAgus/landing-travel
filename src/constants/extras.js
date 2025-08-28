@@ -41,8 +41,8 @@ export const explorePacks = [
         ITINERARIO, 7 NOCHES
         - DIA 1: COMIENZA LA AVENTURA CON UN VUELO DIRECTO AL PARAÍSO, SEGUIDO DE UN CÓMODO TRASLADO A TU HOTEL.
         - DIA 2-7: RELÁJATE EN LAS PLAYAS DE ARENAS BLANCAS, EXPLORA LOS ARRECIFES DE CORAL Y DISFRUTA DE LAS EXCURSIONES OPCIONALES.
-        - DIA 8: CONCLUYE TU ESTANCIA EN ESTE DESTINO SOÑADO, CON TRASLADO HACIA EL AEROPUERTO Y UN VUELO DIRECTO DE VUELTA.
-        1599 USD POR PERSONA`
+        - DIA 8: CONCLUYE TU ESTANCIA EN ESTE DESTINO SOÑADO, CON TRASLADO HACIA EL AEROPUERTO Y UN VUELO DIRECTO DE VUELTA.`,
+        price: "1599 USD POR PERSONA"
     },
     {
         id: 'pack-2',
@@ -56,8 +56,8 @@ export const explorePacks = [
         - DÍA 1: Bienvenido a Cancún, donde el paraíso te espera desde el primer momento. Al llegar, un traslado te llevará cómodamente al hotel, donde podrás empezar a disfrutar desde un primer momento.
         - DÍA 2 A 8: Dedica tus días a sumergirte en la experiencia incomparable de un resort de lujo. Disfruta de las piscinas y de la increíble gastronomía.
         Además, tendrás la oportunidad de realizar emocionantes excursiones opcionales, desde ruinas mayas hasta nadar en cenotes cristalinos.
-        - DÍA 9: Llega el día de despedirse de este hermoso destino caribeño.
-        1799 USD POR PERSONA`
+        - DÍA 9: Llega el día de despedirse de este hermoso destino caribeño.`,
+        price: "1799 USD POR PERSONA"
     },
     {
         id: 'pack-3',
@@ -66,8 +66,8 @@ export const explorePacks = [
         subtitle: 'RIO DE JANEIRO',
         description: `-AÉREO IDA Y VUELTA  CON EQUIPAJE 
         - HOTELERIA
-        - TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
-        DESDE 699 USD POR PERSONA`
+        - TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE`,
+        price: "DESDE 699 USD POR PERSONA"  
     },
     {
         id: 'pack-4',
@@ -80,8 +80,8 @@ export const explorePacks = [
         - TODOS LOS TRASLADOS IN / OUT Y AÉREO/TERRESTRE
         ITINERARIO : 7 NOCHES , 8 DÍAS
         - DIA 1 - 4 : CARTAGENA DE INDIAS.
-        - DIA 4 A 8 : SAN ANDRES.
-        - DESDE 1699 USD POR PERSONA`
+        - DIA 4 A 8 : SAN ANDRES.`,
+        price: "DESDE 1699 USD POR PERSONA"
     }
 ]
 

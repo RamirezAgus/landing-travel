@@ -1,7 +1,6 @@
 import { TitleText, TypingText, TypingText2 } from "@/components/CustomTexts";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "@/utils/motion";
-import { RxArrowDown } from "react-icons/rx";
 
 const About = () => {
   return (
@@ -41,7 +40,6 @@ const About = () => {
           variants={fadeIn("up", "tween", 0.3, 1)}
           className="flex justify-center my-10"
         >
-          <RxArrowDown className="text-blue" size={35} />
         </motion.div>
       </motion.div>
     </section>
