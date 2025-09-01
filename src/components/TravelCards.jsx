@@ -14,6 +14,7 @@ const TravelCards = ({ id, imgUrl, title, subtitle, packages, index, active, han
       <img
         src={imgUrl}
         alt="travel-1"
+        loading="lazy"
         className="absolute w-full h-full object-cover rounded-[24px]"
       />
       {active !== id ? (

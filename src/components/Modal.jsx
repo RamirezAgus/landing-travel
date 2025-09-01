@@ -4,6 +4,7 @@ import { IoMdClose } from "react-icons/io";
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import WhatsAppButton from "./WhatsAppButton";
+import ImageLoader from "./ImageLoader";
 
 const Modal = ({ isOpen, onClose, packages }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -40,10 +41,9 @@ const Modal = ({ isOpen, onClose, packages }) => {
               <IoMdClose size={22} />
             </button>
             <div className="relative">
-              <img
+              <ImageLoader
                 src={packages[currentIndex].imgUrl}
                 alt={packages[currentIndex].title}
-                className="w-full h-[30vh] md:h-64 object-cover"
               />
               <button
                 onClick={handlePrev}
