@@ -1,3 +1,5 @@
+//ARCHIVO DE ANIMACIONES PARA FRAMER MOTION
+
 export const navVariants = {
     hidden: {
       opacity: 0,
